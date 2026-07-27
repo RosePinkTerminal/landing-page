@@ -89,3 +89,41 @@ margin: 0;
     
 }
 
+
+
+/* Info section */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #787f8a;
+    margin: 16px;
+    
+}
+
+.info .info-title {
+    color: #1F2937
+}
+
+.info-images {
+        
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 16px;
+    gap: 64px;
+}
+
+.info-item {
+    max-width: 200px;
+    gap: 16px;
+}
+
+.info .info-images .info-item img {
+    
+    border-radius: 16px;
+    border: 4px solid #3882F6;
+    width:200px;
+}
