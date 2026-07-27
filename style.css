@@ -161,3 +161,34 @@ margin: 0;
     display: flex;
 }
 
+/* Call to action Section */
+
+.CTA {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    justify-content: space-between;
+
+    max-height: 150px;
+    max-width: 30%;
+    margin: 96px auto;
+    padding: 24px 128px;
+
+    align-items: center;
+}
+
+.CTA h1 {
+    font-size: 16px;
+}
+
+.CTA p {
+    font-size: 12px;
+}
+
+.CTA button {
+    background-color: #3882F6;
+    color: white;
+    border: white solid 1px;
+    border-radius: 8px;
+    padding: 4px 16px;
+}
