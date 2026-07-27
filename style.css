@@ -5,9 +5,87 @@
 
 body {
     font-family: 'Roboto';
+    min-height: 100vh;
+    margin: 0px;
+    color:#E5E7EB;
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
 }
 
 
 /* Class CSS */
 
+
+.header {
+    
+    padding: 0% 20%; 
+    padding-bottom: 5%;
+    /* min-height: 300px; */
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #1F2937;
+    
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header-links {
+    gap: 16px;
+    display: flex;   
+    justify-content: space-between;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+
+.header-body {
+    display: flex;
+    /* max-height: 300px;
+    max-width: 500px; */
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 128px;
+    font-size: 18px;
+    
+    
+}
+
+.header-body .content {
+    max-width: 450px;
+}
+
+.header-body h2{
+color:#F9FAF8;
+font-size: 48px;
+font-weight: 900;
+margin: 0;
+}
+
+.header-body button {
+    background-color: #3882F6;
+    padding: 4px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+
+.header-body .dog-image img{
+
+    width: 600px;
+    height: 250px;
+    /* padding-left: 128px; */
+    
+}
 
